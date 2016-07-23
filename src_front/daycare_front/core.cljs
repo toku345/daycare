@@ -1,14 +1,11 @@
 (ns daycare-front.core
-  (:require  [reagent.core :as reagent :refer [atom]]))
-
-(defonce state (atom {:message "Hello Reagent world"}))
+  (:require  [reagent.core :as r]))
 
 (defn root-component []
-  [:h1 (:message @state)
-   [:p "with figwheel!"]])
+  [:div "Hello!"])
 
 (defn mount-root [setting]
-  (reagent/render [root-component]
+  (r/render [root-component]
                   (.getElementById js/document "app")))
 
 (defn init! [setting]
