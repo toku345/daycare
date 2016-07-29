@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/toku345/daycare.png?label=ready&title=Ready)](https://waffle.io/toku345/daycare)
 # daycare
 Support daycare!
 
