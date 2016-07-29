@@ -1,8 +1,9 @@
 # daycare
+Support daycare!
 
 This project build by descjop v0.6.3
 
-FIXME: description
+[![Stories in Ready](https://badge.waffle.io/toku345/daycare.svg?label=ready&title=Ready)](http://waffle.io/toku345/daycare)
 
 ## Requirements
 
@@ -31,71 +32,6 @@ and you can use alias in project directory.
 $ lein descjop-help
 ```
 
-## New project from leiningen template
-
-### Minimum project
-
-```
-$ lein new descjop YOUR_APP_NAME
-$ cd YOUR_APP_NAME
-```
-
-### [Om](https://github.com/omcljs/om) based project
-
-```
-$ lein new descjop YOUR_APP_NAME +om
-$ cd YOUR_APP_NAME
-```
-
-### [reagent](https://github.com/reagent-project/reagent) based project
-
-```
-$ lein new descjop YOUR_APP_NAME +reagent
-$ cd YOUR_APP_NAME
-```
-
-## Project Directory
-
-see your app dir. looks like
-
-```
-.
-+-- Gruntfile.js
-+-- README.md
-+-- app
-|   +-- dev // deveropment mode dir
-|   |   +-- index.html // entry html file
-|   |   +-- js
-|   |   |   +-- externs_front.js
-|   |   |   +-- externs.js
-|   |   |   +-- main.js
-|   |   +-- package.json // for Desktop app
-|   +-- prod // production mode dir
-|       +-- index.html // entry html file
-|       +-- js
-|       |   +-- externs_front.js
-|       |   +-- externs.js
-|       |   +-- main.js
-|       +-- package.json // for Desktop app
-+-- package.json // for Compile
-+-- project.clj // compile settings desktop app
-+-- resources
-+-- src
-|   +-- NAMESPACE
-|       +-- core.cljs // ClojureScript for Electron in here
-+-- src_front
-|   +--NAMESPACE_front
-|      +-- core.cljs // Frontend clojureScript in here
-+-- src_front_profile
-    +--NAMESPACE_front
-       +-- dev
-       |   +-- conf.cljs
-       |   +-- init.cljs
-       +-- prod
-           +-- conf.cljs
-           +-- init.cljs
-```
-
 ## Usage
 
 ### step 1
@@ -107,9 +43,9 @@ run `descjop-init` (windows user should use `descjop-init-win`) alias below.
 ```
 $ lein descjop-init
  ...
- 
+
 Running "download-electron" task
- 
+
 Done, without errors.
 ```
 
@@ -118,9 +54,9 @@ Done, without errors.
 ```
 $ lein descjop-init-win
  ...
- 
+
 Running "download-electron" task
- 
+
 Done, without errors.
 ```
 
